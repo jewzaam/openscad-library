@@ -47,5 +47,4 @@ module pie_slice(xyz,cyl,rot,degrees=45)
     rotate_extrude(angle=degrees,convexity=2)
     translate([t_x,0,0])
     square([cyl[i_od]/2-cyl[i_id]/2,cyl[i_h]],false);
-    
 }
